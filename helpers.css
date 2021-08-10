@@ -1,0 +1,43 @@
+.display-flex{
+    display: flex;
+}
+.justify-content-space-between {
+    justify-content: space-between;
+}
+.align-items{
+    align-items: center;
+    
+}
+.flex-wrap{
+    flex-wrap: wrap;
+}
+.border{
+    border: 30px solid black;
+}
+.title{
+    font-size: 2rem;
+}
+
+.cards-stiles{
+    background-color: white;
+}
+h3{
+    color: black;
+}
+h4{
+    color: black;
+}
+.w-100{
+    width: 100%;
+}
+
+/* Posicionamiento */
+.position-relative{
+    position: relative;
+}
+.position-absolute{
+    position: absolute;
+}
+.top-100{
+    top: 100%;
+}

@@ -1,0 +1,52 @@
+/* navegation */
+/* ****************************************** */
+
+
+/* nav li{
+    display: inline-block;
+    
+} */
+nav{
+    background-color: black;
+    min-height: 60px;
+}nav .menu{
+    display: none;
+}
+nav .menu.visible{
+    display: inline-block;
+}
+nav li a{
+    font-weight: 600;
+    padding: 10px;
+    display: inline-block;
+    color: #ababab;
+}
+@media (min-width: 768px){
+    .burguer-menu{
+        display: none;
+    }
+    nav .menu{
+        display: block;
+        width: auto;
+    }
+    nav .menu li{
+        display: inline-block;
+    }
+}
+
+.card{
+    text-align: center;
+    background-color: rgb(173, 16, 173);
+    justify-content: space-around;
+    border:solid 1px red;
+    min-height: 50px;
+    border-radius: 20px;
+    padding: 2rem;
+
+    
+}.margin-top{
+    margin-top: 30px;
+}
+.color-h3{
+    color: turquoise;
+}
